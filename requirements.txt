@@ -1,6 +1,6 @@
 ﻿DateTime
 matplotlib
-matplotlib-inline
+matplotlib
 numpy
 pandas
 seaborn
