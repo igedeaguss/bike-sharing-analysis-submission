@@ -175,9 +175,6 @@ sns.barplot(
     ax=ax
 )
 
-for index, row in season_rent_df.iterrows():
-    ax.text(index, row['registered'], str(row['registered']), ha='center', va='bottom', fontsize=12)
-    ax.text(index, row['casual'], str(row['casual']), ha='center', va='bottom', fontsize=12)
 
 ax.set_xlabel(None)
 ax.set_ylabel(None)
@@ -199,9 +196,6 @@ sns.barplot(
     palette=colors,
     ax=ax
 )
-
-for index, row in enumerate(weather_rent_df['count']):
-    ax.text(index, row + 1, str(row), ha='center', va='bottom', fontsize=12)
 
 ax.set_xlabel(None)
 ax.set_ylabel(None)
